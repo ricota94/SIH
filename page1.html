@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesp1.css">
+    <title>Enregistrement</title>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <img src="img/croix_hopital.png" alt="logo" class="logo_croix">
+        </div>
+        <div class="div2">
+            <h1 class="titre">Hôpital ABT</h1>
+            <a href="index.html" class="coucou" title="Accueil">
+                <img src="img/bouton_accueil.png" alt="accueil">
+            </a>
+        </div>
+    </header>
+
+    <p class="titre">
+        Gestion d'identification du patient
+    </p>
+
+    <form>
+    <div class="formulaire">
+        <div>
+            <input type="text" placeholder="Nom"><input type="text" placeholder="Prénom">
+        </div>
+        <div>
+            <input type="text" placeholder="Date de naissance"><input type="text" placeholder="Numéro de Sécurité Sociale">
+        </div>
+        <div>
+            <input type="text" placeholder="Adresse mail"><input type="text" placeholder="Numéro de téléphone">
+        </div>
+        <div>
+            <input type="text" placeholder="Adresse complète" class="adresse">
+        </div>
+    </div>
+ 
+    <!--<div class="checkbox">
+        <p>Pass sanitaire valide ?</p>
+        <p>Oui</p><input type="checkbox">
+        <p>Non</p><input type="checkbox">
+    </div>
+
+    <div class="Genre">
+        <p>Sexe</p>
+        <p>Masculin</p><input type="checkbox">
+        <p>Feminin</p><input type="checkbox">
+    </div>-->
+
+    <div class="bloc_question"></div>
+
+    
+    <div class="question">
+        <div class="Q1">
+            Pass sanitaire valide ? : Oui 
+            <input type="radio" name="pass">
+            Non
+            <input type="radio" name="pass">
+        </div>
+
+        <div class="Q1">
+            Sexe : Masculin
+            <input type="radio" name="sexe">
+            Feminin
+            <input type="radio" name="sexe">
+        </div>
+    </div>
+    
+    <div class="soumettre">
+        <input type="reset" value="Tout effacer" class="suivantbis">
+        <input type="submit" class="suivantbis">
+    </div>
+
+
+    <div class="suivant1">
+        
+        <a href="page2.html" class="suivant1">
+            Suivant
+        </a>
+    </div>
+
+    </form>
+
+    <footer>
+        <div class="pied">
+            <div class="contact">
+                <h3>Contact</h3>
+                <p class="footer">Mail : contact@hopitalabt.fr <br> Téléphone : 06 67 77 27 94 <br> Adresse : 75 Avenue Sidérale 75 014 Paris</p>
+
+            </div>
+            <div class="services">
+                <h3>Services</h3>
+                <p class="footer">Urgences <br> Chirurgie <br> Pédiatrie</p>
+            </div>
+            <div class="recrutement">
+                <h3>Recrutement</h3>
+                <p class="footer">Nous rejoindre <br> Pourquoi nous rejoindre <br> Offre d'emplois</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

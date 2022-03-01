@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesp2.css">
+</head>
+<body>
+    
+    <header>
+        <div class="div1">
+            <img src="img/croix_hopital.png" alt="logo" class="logo_croix">
+        </div>
+        <div class="div2">
+            <h1 class="titre">Hôpital ABT</h1>
+            <a href="index.html" class="coucou" title="Accueil">
+                <img src="img/bouton_accueil.png" alt="accueil">
+            </a>
+        </div>
+    </header>
+
+    <p class="titre">Gestion du consentement du patient</p>
+
+<form>
+    <div class="granddiv">
+        <div class="consentements">
+            1. À cette occasion, vous m’avez exposé dans le détail :
+ les informations précises relatives à ma pathologie et son évolution prévisible en cas de refus
+d’intervention thérapeutique,
+ la description et le déroulement des examens, investigations, soins, intervention envisagés et des
+alternatives possibles,
+ leur objectif, leur utilité et les bénéfices escomptés, leurs conséquences et leurs inconvénients,
+ les complications possibles (liées aux suites opératoires, à la pathologie, à toute autre maladie dont
+je puis être porteur ou à des réactions individuelles imprévisibles), leurs risques, y compris
+infectieux et vitaux, et l’éventualité de reprises chirurgicales,
+ les précautions particulières et générales que je dois prendre. 
+
+        </div>
+        <div class="check">
+            Oui <input type="radio" name="1"> Non <input type="radio" name="1">
+        </div>
+
+        <div class="consentements">
+            2.  Je reconnais que vous avez procédé à une évaluation « bénéfices / risques » personnalisée afin de 
+            me recommander l’alternative thérapeutique la plus adaptée à mon cas particulier. 
+            Je vous confirme que les explications que vous m'avez fournies l'ont été dans des termes suffisamment 
+            clairs pour prendre ma décision et accepter l’intervention préconisée
+
+        </div>
+        <div class="check">
+            Oui <input type="radio" name="2"> Non <input type="radio" name="2">
+        </div>
+
+        <div class="consentements">
+            3.  Je confirme avoir pu vous poser toutes les questions concernant cette intervention et j'ai pris note qu'il 
+            existe une imprévisibilité de durée d'hospitalisation, de délai de cicatrisation, etc., ainsi que des risques 
+            exceptionnels, voire même inconnus. 
+        </div>
+        <div class="check">
+            Oui <input type="radio" name="3"> Non <input type="radio" name="3">
+        </div>
+
+        <div class="consentements">
+            4. Je reconnais que le délai entre la consultation et l'intervention me semble tout à fait satisfaisant et 
+            que dans cet intervalle vous êtes à ma disposition pour répondre à toutes mes interrogations. 
+        </div>
+        <div class="check">
+            Oui <input type="radio" name="4"> Non <input type="radio" name="4">
+        </div>
+    </div>
+
+    <p class="signature_patient">
+        Date : <input type="date" value="<?php echo date('Y-m-d'); ?>">
+    </p>
+
+
+    <div class="soumettre">
+        <input type="reset" value="Tout effacer" class="suivantbis">
+        <input type="submit" class="suivantbis">
+    </div>
+
+</form>
+
+
+    <div class="suivant1">
+        <a href="page3.html" class="suivant1">
+            Suivant
+        </a>
+    </div>
+
+    <footer>
+        <div class="pied">
+            <div class="contact">
+                <h3>Contact</h3>
+                <p class="footer">Mail : contact@hopitalabt.fr <br> Téléphone : 06 67 77 27 94 <br> Adresse : 75 Avenue Sidérale 75 014 Paris</p>
+
+            </div>
+            <div class="services">
+                <h3>Services</h3>
+                <p class="footer">Urgences <br> Chirurgie <br> Pédiatrie</p>
+            </div>
+            <div class="recrutement">
+                <h3>Recrutement</h3>
+                <p class="footer">Nous rejoindre <br> Pourquoi nous rejoindre <br> Offre d'emplois</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
